@@ -1,0 +1,39 @@
+body,
+header,
+nav,
+footer,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+header {
+    text-align: center;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+nav {
+    text-align: center;
+}
+
+
+nav ul li a {
+    display: block;
+    padding: 0.5em;
+    color: #fff;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+
+main {
+    background-color: #fff;
+    padding: 2%;
+    font-size: 2em;
+}
